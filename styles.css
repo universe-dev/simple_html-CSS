@@ -1,0 +1,197 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.top-banner {
+    background-image: url('images/banner/banner1.png');
+    height: 700px;
+}
+
+.banner-description {
+    width: 40%;
+    float: right;
+    margin-top: 100px;
+    text-align: right;
+    margin-right: 150px;
+}
+
+.banner-heading {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.description {
+    margin-bottom: 32px;
+    color: black;
+}
+
+.btn-primary {
+    background-color: #F15B22;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.middle-banner {
+    display: flex;
+    gap: 40px;
+}
+
+.banner-left {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+
+.banner-quote {
+    margin-right: 200px;
+    margin-top: 300px;
+}
+
+.quote-heading {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.quote-paragraph {
+    color: #444343;
+}
+
+.quote-list {
+    margin-top: 24px;
+}
+
+.quote-list li {
+    list-style-type: none;
+}
+
+.fa-solid {
+    margin-right: 5px;
+}
+
+/* my plans style*/
+
+.plans-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 130px;
+}
+
+.my-plans {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.plan {
+    text-align: center;
+}
+
+.plan h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.motivation {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.positive {
+    width: 70%;
+    height: auto;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('images/watch.png');
+    padding: 59px 0px 64px 64px;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.motivation-heading {
+    color: wheat;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.motivation-button {
+    background-color: white;
+    color: #F15B22;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.foot {
+    background-color: black;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 130px;
+
+
+}
+
+.contact h1,
+p {
+    color: white;
+}
+
+.footer-left {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer-left p {
+    margin-top: 10px;
+}
+
+.footer-left img {
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.footer-right {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.email-input {
+    width: 200px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.btn-submit {
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #F15B22;
+    font-weight: 500;
+}
